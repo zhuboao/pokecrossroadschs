@@ -69,65 +69,38 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
-	.string "The BOSS got interested in\n"
-	.string "the research they have going here,\l"
-	.string "so he sent us out.\p"
-	.string "You quit meddling!$"
+	.string "老大对这儿的研究很感兴趣，\n所以派我们来这里。\p你别来碍事！$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
-	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "输了……\n输给一个小鬼……$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
-	.string "Our BOSS knows everything.\p"
-	.string "But I'm just a GRUNT. What would I know\n"
-	.string "about what he's thinking?$"
+	.string "老大无所不知。\p但我只是个小人物，\n又怎么能猜到他的想法？$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro:
-	.string "Huh?\n"
-	.string "What's a kid doing here?$"
+	.string "嗯？\n这儿怎么有个小孩子？$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
-	.string "Huh?\n"
-	.string "I lost?!$"
+	.string "嗯？\n我输了？！$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
-	.string "Oh, no…\n"
-	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "哦，不……\n输给个小鬼，我又得被唠叨了……\p还是躲床上打盹吧……$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string "我睡觉的时候\n大家都上楼去了！$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "哇，你真强！\p真想成为和你一样的\n宝可梦训练家！$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string "教授沉迷于降雨研究，\n这是事实。\p但如果雨一直不停，就会给人们\n带来麻烦，这也是事实。\p因此，教授在研究\n如何让雨造福于人。$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "我们在研究所二楼研究丰缘地区的\n天气变化情况。\p我们发现近期频繁出现局部突发性干旱\n与强降雨的异常现象……$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "嗨！\n谢谢你救了我们！\p但我真的想不通海洋队\n到底在打什么主意。$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "有张床……\n休息一下吧。$"
 

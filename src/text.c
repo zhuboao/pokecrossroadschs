@@ -15,6 +15,7 @@
 #include "string_util.h"
 #include "text.h"
 #include "window.h"
+#include "chinese_text.h"
 #include "constants/songs.h"
 #include "constants/speaker_names.h"
 
@@ -1577,41 +1578,52 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             return RENDER_FINISH;
         }
 
-        switch (textPrinter->fontId)
+        if (IsChineseChar(currChar, *textPrinter->printerTemplate.currentChar, textPrinter->fontId, textPrinter->japanese))
         {
-        case FONT_SMALL:
-            DecompressGlyph_Small(currChar, textPrinter->japanese);
-            break;
-        case FONT_NORMAL:
-            DecompressGlyph_Normal(currChar, textPrinter->japanese);
-            break;
-        case FONT_SHORT:
-        case FONT_SHORT_COPY_1:
-        case FONT_SHORT_COPY_2:
-        case FONT_SHORT_COPY_3:
-            DecompressGlyph_Short(currChar, textPrinter->japanese);
-            break;
-        case FONT_NARROW:
-            DecompressGlyph_Narrow(currChar, textPrinter->japanese);
-            break;
-        case FONT_SMALL_NARROW:
-            DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese);
-            break;
-        case FONT_NARROWER:
-            DecompressGlyph_Narrower(currChar, textPrinter->japanese);
-            break;
-        case FONT_SMALL_NARROWER:
-            DecompressGlyph_SmallNarrower(currChar, textPrinter->japanese);
-            break;
-        case FONT_SHORT_NARROW:
-            DecompressGlyph_ShortNarrow(currChar, textPrinter->japanese);
-            break;
-        case FONT_SHORT_NARROWER:
-            DecompressGlyph_ShortNarrower(currChar, textPrinter->japanese);
-            break;
-        case FONT_BRAILLE:
-            break;
+            // 合并字节获取汉字双字节编码
+            currChar = (currChar << 8) | *textPrinter->printerTemplate.currentChar;
+            textPrinter->printerTemplate.currentChar++;
+            DecompressGlyph_Chinese(currChar, textPrinter->fontId);
         }
+        else if (IsChinesePunctuation(currChar, textPrinter->fontId, textPrinter->japanese))
+            // 中文符号目前采用单字节编码占位(非与增益版完全一致)
+            DecompressGlyph_Chinese(currChar, textPrinter->fontId);
+        else
+            switch (textPrinter->fontId)
+            {
+            case FONT_SMALL:
+                DecompressGlyph_Small(currChar, textPrinter->japanese);
+                break;
+            case FONT_NORMAL:
+                DecompressGlyph_Normal(currChar, textPrinter->japanese);
+                break;
+            case FONT_SHORT:
+            case FONT_SHORT_COPY_1:
+            case FONT_SHORT_COPY_2:
+            case FONT_SHORT_COPY_3:
+                DecompressGlyph_Short(currChar, textPrinter->japanese);
+                break;
+            case FONT_NARROW:
+                DecompressGlyph_Narrow(currChar, textPrinter->japanese);
+                break;
+            case FONT_SMALL_NARROW:
+                DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese);
+                break;
+            case FONT_NARROWER:
+                DecompressGlyph_Narrower(currChar, textPrinter->japanese);
+                break;
+            case FONT_SMALL_NARROWER:
+                DecompressGlyph_SmallNarrower(currChar, textPrinter->japanese);
+                break;
+            case FONT_SHORT_NARROW:
+                DecompressGlyph_ShortNarrow(currChar, textPrinter->japanese);
+                break;
+            case FONT_SHORT_NARROWER:
+                DecompressGlyph_ShortNarrower(currChar, textPrinter->japanese);
+                break;
+            case FONT_BRAILLE:
+                break;
+            }
 
         PrintGlyph(textPrinter);
 
@@ -1962,7 +1974,15 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case CHAR_PROMPT_CLEAR:
             break;
         default:
-            glyphWidth = func(*str, isJapanese);
+            if (IsChineseChar(*str, str[1], fontId, isJapanese))
+            {
+                glyphWidth = GetChineseFontWidthFunc(((*str << 8) | str[1]), fontId);
+                ++str;
+            }
+            else if (IsChinesePunctuation(*str, fontId, isJapanese))
+                glyphWidth = GetChineseFontWidthFunc(*str, fontId);
+            else
+                glyphWidth = func(*str, isJapanese);
             if (minGlyphWidth > 0)
             {
                 if (glyphWidth < minGlyphWidth)

@@ -62,50 +62,29 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 	end
 
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
-	.string "Hi, hi! I'm the NAME RATER!\n"
-	.string "I'm the fortune-teller of names!\p"
-	.string "I shall be pleased to rate your\n"
-	.string "POKéMON's nickname.$"
+	.string "看一看瞧一瞧啊！\n老夫乃姓名鉴定师。\l也就是看名字算命的。\p来，让老夫来算算\n你宝可梦的昵称吧。$"
 
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
-	.string "Which POKéMON's nickname should\n"
-	.string "I critique?$"
+	.string "你想算哪只\n宝可梦的昵称啊？$"
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
-	.string "Hmmm… {STR_VAR_1}, is it? That is\n"
-	.string "quite a fine name you bestowed.\p"
-	.string "But! What say you, if I were to\n"
-	.string "suggest a slightly better name?$"
+	.string "唔嗯……\n{STR_VAR_1}啊……\p这个昵称很有你的风范，\n取得不错嘛。\p不过～\n要不要老夫帮你\l取个更好的名字啊？$"
 
 SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
-	.string "Ah, good. Then, what shall the new\n"
-	.string "nickname be?$"
+	.string "是吗，那……\n取个什么昵称好呢？$"
 
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
-	.string "Done! From now on, this POKéMON\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It is a better name than before!\n"
-	.string "How fortunate for you!$"
+	.string "好！从今天起\n这只宝可梦就叫{STR_VAR_1}啦！\p比之前的名字好听太多了，\n太好了太好了！$"
 
 SlateportCity_NameRatersHouse_Text_DoVisitAgain:
-	.string "I see.\n"
-	.string "Do come visit again.$"
+	.string "这样啊。\n知道了，你有空再来吧。$"
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
-	.string "Done! From now on, this POKéMON\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It looks no different from before,\n"
-	.string "and yet, this is vastly superior!\p"
-	.string "How fortunate for you!$"
+	.string "好！从今天起\n这只宝可梦就叫{STR_VAR_1}啦！\p虽然听起来和之前的差不多，\n但这个更棒哦！\l太好了太好了！$"
 
 SlateportCity_NameRatersHouse_Text_MagnificentName:
-	.string "Hmmm… {STR_VAR_1} it is!\p"
-	.string "This is a magnificent nickname!\n"
-	.string "It is impeccably beyond reproach!\p"
-	.string "You'll do well to cherish your\n"
-	.string "{STR_VAR_1} now and beyond.$"
+	.string "唔嗯……\n{STR_VAR_1}啊！\p这昵称好听到\n无可挑剔！\p今后你也要\n好好爱护{STR_VAR_1}哦！$"
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
-	.string "Now, now.\n"
-	.string "That is merely an EGG!$"
+	.string "喂喂……\n这不是颗蛋吗！$"
 

@@ -576,5 +576,5 @@ Movement_JumpInPlaceRight:
 	step_end
 
 Text_MoveCanOnlyBeLearnedOnce::
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "这个技能只能传授一次。\n"
+	.string "确定吗？$"

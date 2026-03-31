@@ -1,51 +1,29 @@
 gText_WouldYouLikeToRestYourPkmn::
-	.string "Hello, and welcome to\n"
-	.string "the POKéMON CENTER.\p"
-	.string "We restore your tired POKéMON\n"
-	.string "to full health.\p"
-	.string "Would you like to rest your POKéMON?$"
+	.string "辛苦了！\n这里是宝可梦中心。\p在这里可以\n回复宝可梦的体力。\p要让您的宝可梦休息一下吗？$"
 
 gText_IllTakeYourPkmn::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+	.string "那么，就交给我吧！$"
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
-	.string "We've restored your POKéMON\n"
-	.string "to full health.$"
+	.string "久等了！\p交给我的宝可梦们\n全都变得精力充沛了哦！$"
 
 gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "欢迎下次再来！$"
 
 gText_WelcomeCutShort::
-	.string "Hello, and welcome to\n"
-	.string "the POKéMON CENTER.\p"
-	.string "We restore your tired POKéMON\n"
-	.string "to full health.\p"
-	.string "Would you like to…$"
+	.string "辛苦了！\n这里是宝可梦中心。\p在这里，\n可以回复宝可梦的体力。\p要让您的宝可梦……$"
 
 gText_NoticesGoldCard::
-	.string "Th-that card…\n"
-	.string "Could it be… The GOLD CARD?!\p"
-	.string "Oh, the gold color is brilliant!\n"
-	.string "The four stars seem to sparkle!\p"
-	.string "I've seen several TRAINERS with\n"
-	.string "a SILVER CARD before, but, {PLAYER},\l"
-	.string "you're the first TRAINER I've ever\l"
-	.string "seen with a GOLD CARD!\p"
-	.string "Okay, {PLAYER}, please allow me\n"
-	.string "the honor of resting your POKéMON!$"
+	.string "那、那张卡！？\p那个颜色！！\n那星星的数量！！\p至今为止我也见过几位\n拥有白银卡的训练家。\p但是拥有比这更厉害的\n训练家卡的客人，\l您还是第一位！\p先让您的宝可梦休息一下吧！$"
 
 gText_YouWantTheUsual::
-	.string "I'm delighted to see you, {PLAYER}!\n"
-	.string "You want the usual, am I right?$"
+	.string "辛苦了！\n要像往常一样吗？$"
 
 gText_IllTakeYourPkmn2::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+	.string "那就交给我吧！$"
 
 gText_ThankYouForWaiting::
-	.string "Thank you for waiting.$"
+	.string "让您久等了！$"
 
 gText_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+	.string "欢迎您随时再来！$"

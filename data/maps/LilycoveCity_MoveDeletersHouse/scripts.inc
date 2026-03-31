@@ -67,40 +67,29 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make POKéMON forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "那个……\n俺是谁来着？\p…… …… ……\n…… …… ……\p哦哦，对了！\n俺是遗忘爷爷哩！\p你是来让宝可梦\n忘记招式的呐？$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which POKéMON should forget a move?$"
+	.string "要选哪只宝可梦哩？$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
+	.string "嗯……于是乎，\n要忘记哪个招式哩？$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
+	.string "啥？\n{STR_VAR_1}仅学习了一个招式哟？$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "{STR_VAR_1}的{STR_VAR_2}？\n要忘掉它吗？$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
+	.string "大功告成哩！\p{STR_VAR_1}忘记了\n{STR_VAR_2}！$"
 
 LilycoveCity_MoveDeletersHouse_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
+	.string "想想要忘记招式，\n就想起俺来吧！$"
 
 LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No EGG should know any moves.$"
+	.string "啥？那是蛋呐。\n什么招式都学不会哟……$"
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
-	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget SURF.$"
+	.string "嗯……\p你的{STR_VAR_1}好像不想\n忘记冲浪呐。$"
 

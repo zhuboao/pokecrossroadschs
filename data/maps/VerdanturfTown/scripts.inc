@@ -62,64 +62,32 @@ VerdanturfTown_EventScript_RusturfTunnelSign::
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel:
-	.string "My papa told me.\p"
-	.string "He says this tunnel is full of\n"
-	.string "timid POKéMON.\p"
-	.string "They get all scared of loud noise and\n"
-	.string "make a big uproar.\p"
-	.string "So they had to stop the big tunnel\n"
-	.string "project.\p"
-	.string "But there's one man. He's trying to dig\n"
-	.string "the tunnel by himself!$"
+	.string "爸爸告诉我，\n这隧道里全是胆小的宝可梦。\p它们听到巨响就会受惊，\n引发大骚乱。\p所以大型隧道工程\n被迫中止了。\p但有个男人还在\n独自挖掘！$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
-	.string "There was a man who dug a tunnel for\n"
-	.string "a lady he loved.\p"
-	.string "I don't really get it, but hey!$"
+	.string "听说那人挖隧道是\n为了心爱的姑娘。\p虽然不太懂，\n但真浪漫啊！$"
 
 VerdanturfTown_Text_AirCleanHere:
-	.string "The way the winds blow, volcanic ash\n"
-	.string "is never blown in this direction.\p"
-	.string "The air is clean and delicious here.\n"
-	.string "Living here should do wonders for even\l"
-	.string "frail and sickly people.$"
+	.string "因风向关系，\n火山灰永远吹不到这里，\p所以这里空气非常清新。\n住在这里，就算是体弱多病的人\l也可能有奇迹般的好转。$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
+	.string "我和宝可梦最近连胜不断，\n决定在绿荫镇的对战帐篷首秀！$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
-	.string "Did you see the cave next to the\n"
-	.string "POKéMON MART?\p"
-	.string "There's a guy in there who's trying to\n"
-	.string "bust up boulders so he can bust out\l"
-	.string "through to the other side.\p"
-	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit RUSTBORO.$"
+	.string "你看到友好商店旁边的\n洞窟了吗？\p里面有个人在努力打碎岩石\n来打通隧道。\p要是隧道能打通就太好了……\n这样我们去卡那兹市就更容易了。$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
-	.string "That cave next to the POKéMON MART\n"
-	.string "is now a tunnel to the other side.\p"
-	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in RUSTBORO now.$"
+	.string "友好商店旁的洞穴\n已经是连通两地的隧道啦！\p太棒了——现在去卡那兹市买得文的\n新产品方便多了。$"
 
 VerdanturfTown_Text_TownSign:
-	.string "VERDANTURF TOWN\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string "这里是绿茵镇。\n“带有青草气息的风吹高原。”$"
 
 VerdanturfTown_Text_WandasHouse:
-	.string "WANDA'S HOUSE$"
+	.string "满盈的家$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "对战帐篷绿茵镇分址\n“精彩对战，尽收眼底！”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "卡绿隧道\n“连接卡那兹市和绿茵镇\p隧道工程现已\n终止施工。”$"
 

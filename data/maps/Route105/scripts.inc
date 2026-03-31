@@ -77,21 +77,7 @@ Route105_EventScript_AndresRematch::
 	end
 
 Route104_Text_DadPokenavCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "DAD: Oh, {PLAYER}?\p"
-	.string "… … … … … …\n"
-	.string "Where are you now?\l"
-	.string "It sounds windy wherever you are.\p"
-	.string "I just heard from DEVON's MR. STONE\n"
-	.string "about your POKéNAV, so I decided\l"
-	.string "to give you a call.\p"
-	.string "It sounds like you're doing fine,\n"
-	.string "so that's fine with me.\p"
-	.string "You take care now.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "…… …… ……\n…… …… ……哔！\p爸爸：喂，{PLAYER}吗？\p…… …… ……\n现在到哪儿了？\l你那边风声很大啊。\p我刚刚从得文的兹伏奇社长那儿\n听说了你拿到了宝可导航，\l就想着给你打个电话。\p听起来你过得不错，\n那我就放心了。\p自己多保重啊。\p…… …… ……\n…… …… ……咔哒！$"
 
 Route104_Text_RegisteredDadInPokenav:
-	.string "Registered DAD NORMAN\n"
-	.string "in the POKéNAV.$"
+	.string "把爸爸千里\n登记到宝可导航里了。$"

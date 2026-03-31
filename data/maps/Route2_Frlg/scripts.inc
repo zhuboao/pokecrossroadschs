@@ -10,11 +10,11 @@ Route2_EventScript_DiglettsCaveSign::
 	end
 
 Route2_Text_RouteSign::
-	.string "ROUTE 2\n"
-	.string "VIRIDIAN CITY - PEWTER CITY$"
+	.string "2号道路\n"
+	.string "常青市-深灰市$"
 
 Route2_Text_DiglettsCave::
-	.string "DIGLETT'S CAVE$"
+	.string "地鼠洞穴$"
 
 Route2_EventScript_ProfBirchAssistant::
 	lock
@@ -41,22 +41,13 @@ Route2_EventScript_ProfBirchAssistant_Done::
 	end
 
 Route2_Text_Hoenn:
-	.string "{PLAYER}!!!\n"
-	.string "Prof Oak said you'd be coming\l"
-	.string "through here.\p"
-	.string "Prof Birch in Hoenn wanted\n"
-	.string "me to find you.\p"
-	.string "He wants you to have this.$"
+	.string "{PLAYER}！！！\n大木博士说你会\l经过这里的。\p小田卷博士在丰缘，\n托我来找你。\p他想把这个给你。$"
 
 Route2_Text_ReceivedDevice:
-	.string "{PLAYER} received the new\n"
-	.string "Flight Call device!$"
+	.string "{PLAYER}获得了\n飞行呼叫！$"
 
 Route2_Text_HoennAfterGift:
-	.string "That device should enable you\n"
-	.string "to visit Hoenn.\p"
-	.string "I should get back to the lab\n"
-	.string "myself. See you later!$"
+	.string "有了那个道具，\n就可以前往丰缘了。\p我也该回研究所了，\n再见！$"
 
 Route2_Movement_ProfBirchAssistantWarpOut:
 	walk_left

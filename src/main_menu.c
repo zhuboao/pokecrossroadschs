@@ -255,25 +255,25 @@ static const u32 sBirchSpeechShadowGfx[] = INCBIN_U32("graphics/birch_speech/sha
 static const u32 sBirchSpeechBgMap[] = INCBIN_U32("graphics/birch_speech/map.bin.smolTM");
 static const u16 sBirchSpeechBgGradientPal[] = INCBIN_U16("graphics/birch_speech/bg2.gbapal");
 
-static const u8 gText_SaveFileCorrupted[] = _("The save file is corrupted. The\nprevious save file will be loaded.");
-static const u8 gText_SaveFileErased[] = _("The save file has been erased\ndue to corruption or damage.");
+static const u8 gText_SaveFileCorrupted[] = _("因为先前游戏中的记录没有正确保存，\n将读取在那之前保存的那一份记录！");
+static const u8 gText_SaveFileErased[] = _("记录的内容消失了！");
 static const u8 gJPText_No1MSubCircuit[] = _("1Mサブきばんが ささっていません！");
-static const u8 gText_BatteryRunDry[] = _("The internal battery has run dry.\nThe game can be played.\pHowever, clock-based events will\nno longer occur.");
+static const u8 gText_BatteryRunDry[] = _("因电池已经没电，\n所以时钟不会走动。\p与时钟相关的所有事件不会发生，\n但游戏依然可以继续游玩。");
 
-static const u8 gText_MainMenuNewGame[] = _("NEW GAME");
-static const u8 gText_MainMenuContinue[] = _("CONTINUE");
-static const u8 gText_MainMenuOption[] = _("OPTION");
-static const u8 gText_MainMenuMysteryGift[] = _("MYSTERY GIFT");
-static const u8 gText_MainMenuMysteryGift2[] = _("MYSTERY GIFT");
-static const u8 gText_MainMenuMysteryEvents[] = _("MYSTERY EVENTS");
-static const u8 gText_WirelessNotConnected[] = _("The Wireless Adapter is not\nconnected.");
-static const u8 gText_MysteryGiftCantUse[] = _("MYSTERY GIFT can't be used while\nthe Wireless Adapter is attached.");
-static const u8 gText_MysteryEventsCantUse[] = _("MYSTERY EVENTS can't be used while\nthe Wireless Adapter is attached.");
+static const u8 gText_MainMenuNewGame[] = _("从头开始");
+static const u8 gText_MainMenuContinue[] = _("从记录继续");
+static const u8 gText_MainMenuOption[] = _("改变设定");
+static const u8 gText_MainMenuMysteryGift[] = _("神秘礼物");
+static const u8 gText_MainMenuMysteryGift2[] = _("神秘礼物");
+static const u8 gText_MainMenuMysteryEvents[] = _("神秘事件");
+static const u8 gText_WirelessNotConnected[] = _("没有连接\n无线接收器！");
+static const u8 gText_MysteryGiftCantUse[] = _("因为没有连接无线接收器\n不能使用神秘礼物功能！");
+static const u8 gText_MysteryEventsCantUse[] = _("因为没有连接无线接收器\n不能使用神秘事件功能！");
 
-static const u8 gText_ContinueMenuPlayer[] = _("PLAYER");
-static const u8 gText_ContinueMenuTime[] = _("TIME");
-static const u8 gText_ContinueMenuPokedex[] = _("POKéDEX");
-static const u8 gText_ContinueMenuBadges[] = _("BADGES");
+static const u8 gText_ContinueMenuPlayer[] = _("主人公");
+static const u8 gText_ContinueMenuTime[] = _("冒险时间");
+static const u8 gText_ContinueMenuPokedex[] = _("宝可梦图鉴");
+static const u8 gText_ContinueMenuBadges[] = _("获得徽章");
 
 #define MENU_LEFT 2
 #define MENU_TOP_WIN0 1

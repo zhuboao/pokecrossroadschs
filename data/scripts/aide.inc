@@ -14,17 +14,17 @@ Aide_EventScript_DeclineCheckMons::
 	end
 
 Aide_Text_HaventCaughtEnoughMonsForItem::
-	.string "Let's see…\n"
-	.string "Uh-oh! You have caught only\l"
-	.string "{STR_VAR_3} kinds of POKéMON!\p"
-	.string "You need {STR_VAR_1} kinds\n"
-	.string "if you want the {STR_VAR_2}.$"
+	.string "让我查查……\n"
+	.string "哎呀！你目前只捕捉了\l"
+	.string "{STR_VAR_3}种宝可梦！\p"
+	.string "想得到{STR_VAR_2}，\n"
+	.string "需要捕捉{STR_VAR_1}种才行。$"
 
 Aide_Text_GetEnoughMonsComeBackForItem::
-	.string "…Oh. I see.\p"
-	.string "When you get {STR_VAR_1} kinds of POKéMON,\n"
-	.string "come back for the {STR_VAR_2}.$"
+	.string "……哦，我明白了。\p"
+	.string "等你捕捉到{STR_VAR_1}种宝可梦后，\n"
+	.string "再来拿{STR_VAR_2}吧。$"
 
 Aide_Text_DontHaveAnyRoomForItem::
-	.string "Oh! I see you don't have any\n"
-	.string "room for the {STR_VAR_2}.$"
+	.string "哦！你的背包\n"
+	.string "已经没有空间放{STR_VAR_2}了。$"

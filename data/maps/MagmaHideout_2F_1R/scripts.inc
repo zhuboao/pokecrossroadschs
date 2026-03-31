@@ -22,54 +22,38 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-	.string "What, what, what?\p"
-	.string "Only TEAM MAGMA members are supposed\n"
-	.string "to be in here!\p"
-	.string "But you're not dressed in TEAM MAGMA's\n"
-	.string "uniform…\p"
-	.string "You rouse my suspicion!\n"
-	.string "Battle with me!$"
+	.string "什么什么什么？\p只有熔岩队\n才准进来！\p但你没穿熔岩队的\n制服……\p你很可疑！\n和我对战吧！$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-	.string "Aiyiyi…\n"
-	.string "My pride as a TEAM MAGMA member…$"
+	.string "呜哇……\n我作为熔岩队手下的尊严啊……$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
-	.string "If you suffer from chills, you should\n"
-	.string "join TEAM MAGMA.$"
+	.string "要是你怕冷的话，\n不如加入我们熔岩队吧。$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
-	.string "Hold it right there!\p"
-	.string "You don't really expect me to keep\n"
-	.string "my trap shut and let you waltz by me?$"
+	.string "站住！\p你不会以为我会眼睁睁地站在这里，\n放你大摇大摆地过去吧？$"
 
 MagmaHideout_2F_1R_Text_Grunt3Defeat:
-	.string "Ooh wow!\n"
-	.string "I concede!$"
+	.string "哇啊！\n我认输！$"
 
 MagmaHideout_2F_1R_Text_Grunt3PostBattle:
-	.string "Maybe it would've been better if I did\n"
-	.string "just let you go unchallenged…$"
+	.string "早知道这样，\n还不如直接放你过去算了……$"
 
 MagmaHideout_2F_1R_Text_Grunt4Intro:
-	.string "Ahah!\n"
-	.string "An intruder!$"
+	.string "啊！\n有入侵者！$"
 
 MagmaHideout_2F_1R_Text_Grunt4Defeat:
-	.string "Graaah!$"
+	.string "哇啊啊！$"
 
 MagmaHideout_2F_1R_Text_Grunt4PostBattle:
-	.string "I've already lost.\p"
-	.string "Do I really need to keep running\n"
-	.string "around in a circle?$"
+	.string "都已经输了……\p我还有必要继续在这儿\n转圈巡逻吗？$"
 
 MagmaHideout_2F_1R_Text_Grunt5Intro:
-	.string "Oh, oh!\n"
-	.string "An intruder!$"
+	.string "哦，哦！\n有入侵者！$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
-	.string "Mutter…$"
+	.string "切……$"
 
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-	.string "Actually, I'm no expert at battling…$"
+	.string "说实话，\n我本来就不擅长对战……$"
 

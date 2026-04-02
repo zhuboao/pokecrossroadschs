@@ -2,28 +2,19 @@ gText_PkmnTransferredSomeonesPC::
 	.string "已将{STR_VAR_2}传送到\n某人的电脑上，\p位于盒子\n“{STR_VAR_1}”里。$"
 
 gText_PkmnTransferredLanettesPC::
-	.string "已将{STR_VAR_2}传送到\n"
+	.string "已将{STR_VAR_2}传送到\n真由美的电脑上，\p位于盒子\n“{STR_VAR_1}”里。$"
 
 gText_PkmnTransferredLanettesPC_Frlg::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BILL'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "已将{STR_VAR_2}传送到\n正辉的电脑上，\p位于盒子\n“{STR_VAR_1}”里。$"
 
 gText_PkmnTransferredSomeonesPCBoxFull::
 	.string "某人的电脑上的盒子\n“{STR_VAR_3}”已满，\p{STR_VAR_2}传送到\n盒子“{STR_VAR_1}”里。$"
 
 gText_PkmnTransferredLanettesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "LANETTE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "真由美的电脑上的盒子\n“{STR_VAR_3}”已满，\p已将{STR_VAR_2}传送到\n盒子“{STR_VAR_1}”里。$"
 
 gText_PkmnTransferredLanettesPCBoxFull_Frlg::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "BILL'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "正辉的电脑上的盒子\n“{STR_VAR_3}”已满，\p已将{STR_VAR_2}传送到\n盒子“{STR_VAR_1}”里。$"
 
 gText_PkmnSentToPCAfterCatch::
 	.string "已将{STR_VAR_2}传送到\n"

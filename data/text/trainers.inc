@@ -3425,14 +3425,14 @@ Route134_Text_HudsonPostBattle:
 	.string "我们的船漂到海里去了。\p我的搭档比较胆小，\n现在我很担心他。$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
-	.string "The battery isn't charged enough.\p"
-	.string "No. of steps required to fully\n"
-	.string "charge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "电量不足。\p"
+	.string "完全充满所需步数：\n"
+	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_NoTrainersWithinRange::
-	.string "There are no Trainers within range\n"
-	.string "who can battle…\p"
-	.string "The VS Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
+	.string "附近没有可以对战的训练家……\p"
+	.string "VS雷达已关闭。{PAUSE_UNTIL_PRESS}$"
+
 
 VSSeeker_Text_TrainersNotReady::
 	.string "其他训练家似乎还没有准备好对战，\n"

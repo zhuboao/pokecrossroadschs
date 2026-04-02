@@ -650,11 +650,11 @@ static void SpriteCB_ReelTimeDuck(struct Sprite *);
 static void SpriteCB_ReelTimeSmoke(struct Sprite *);
 static void SpriteCB_PikaPowerBolt(struct Sprite *);
 
-static const u8 sText_QuitTheGame[] = _("Quit the game?");
-static const u8 sText_YouveGot9999Coins[] = _("You've got 9,999 COINS.");
-static const u8 sText_YouveRunOutOfCoins[] = _("You've run out of COINS.\nGame over!");
-static const u8 sText_YouDontHaveThreeCoins[] = _("You don't have three COINS.");
-static const u8 sText_ReelTimeHelp[] = _("REEL TIME\nHere's your chance to take\naim and nail marks!\nReel Time continues for the\nawarded number of spins.\nIt all ends on a Big Bonus.");
+static const u8 sText_QuitTheGame[] = _("要退出游戏吗？");
+static const u8 sText_YouveGot9999Coins[] = _("代币已经达到9999枚了。");
+static const u8 sText_YouveRunOutOfCoins[] = _("代币用完了。\n游戏结束！");
+static const u8 sText_YouDontHaveThreeCoins[] = _("代币不足3枚。");
+static const u8 sText_ReelTimeHelp[] = _("转轮时间\n这是瞄准目标图案的\n大好机会！\n转轮时间将持续至\n所给定的旋转次数结束，\n或以获得大奖结束。");
 
 // Ewram variables
 static EWRAM_DATA u16 *sMenuGfx = NULL;

@@ -4863,10 +4863,10 @@ static inline bool32 ShouldShowIvEvPrompt(void)
 static inline void ShowUtilityPrompt(s16 mode)
 {
     const u8* promptText = NULL;
-    const u8* gText_SkillPageIvs = COMPOUND_STRING("IVs");
-    const u8* gText_SkillPageEvs = COMPOUND_STRING("EVs");
-    const u8* gText_SkillPageStats = COMPOUND_STRING("STATS");
-    const u8* gText_Rename = COMPOUND_STRING("RENAME");
+    const u8* gText_SkillPageIvs = COMPOUND_STRING("个体值");
+    const u8* gText_SkillPageEvs = COMPOUND_STRING("努力值");
+    const u8* gText_SkillPageStats = COMPOUND_STRING("能力值");
+    const u8* gText_Rename = COMPOUND_STRING("更改昵称");
 
     if (sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO)
     {

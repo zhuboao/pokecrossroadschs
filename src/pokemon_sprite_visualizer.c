@@ -492,7 +492,7 @@ static const struct SubmenuText sSubmenuText[] =
         .instructions = COMPOUND_STRING("{START_BUTTON} Shiny\n{B_BUTTON} Back  {A_BUTTON} Move BGs$"),
         .instructionsGender = COMPOUND_STRING("{START_BUTTON} Shiny {SELECT_BUTTON} Gender\n{B_BUTTON} Back  {A_BUTTON} Move BGs$"),
 #endif
-        .bottomLeft = COMPOUND_STRING("B coords:\nF coords:\nF elev:"),
+        .bottomLeft = COMPOUND_STRING("背面坐标：\n正面坐标：\n正面高度："),
     },
 
     [SUBMENU_SHADOW_COORDS] =
@@ -504,14 +504,14 @@ static const struct SubmenuText sSubmenuText[] =
         .instructions = COMPOUND_STRING("$"),
         .instructionsGender = COMPOUND_STRING("$"),
 #endif
-        .bottomLeft = COMPOUND_STRING("X coords:\nY coords:\nSize:"),
+        .bottomLeft = COMPOUND_STRING("横坐标：\n纵坐标：\n大小："),
     },
 
     [SUBMENU_MOVE_BACKGROUNDS] =
     {
         .instructions = COMPOUND_STRING("{START_BUTTON} Shiny\n{B_BUTTON} Back$"),
         .instructionsGender = COMPOUND_STRING("{START_BUTTON} Shiny {SELECT_BUTTON} Gender\n{B_BUTTON} Back$"),
-        .bottomLeft = COMPOUND_STRING("Move BG:"),
+        .bottomLeft = COMPOUND_STRING("招式背景："),
     },
 };
 

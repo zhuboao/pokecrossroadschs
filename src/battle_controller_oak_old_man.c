@@ -48,16 +48,16 @@ static void PrintOakText_ForPetesSake(enum BattlerId battler);
 static void PrintOakTextWithMainBgDarkened(enum BattlerId battler, const u8 *text, u8 delay);
 static void HandleInputChooseAction(enum BattlerId battler);
 
-static const u8 sText_ForPetesSake[] = _("OAK: Oh, for Pete's sake…\nSo pushy, as always.\p{B_PLAYER_NAME}.\pYou've never had a POKéMON battle\nbefore, have you?\pA POKéMON battle is when TRAINERS\npit their POKéMON against each\lother.\p");
-static const u8 sText_HowDissapointing[] = _("OAK: Hm…\nHow disappointing…\pIf you win, you earn prize money,\nand your POKéMON grow.\pBut if you lose, {B_PLAYER_NAME}, you end\nup paying prize money…\pHowever, since you had no warning\nthis time, I'll pay for you.\pBut things won't be this way once\nyou step outside these doors.\pThat's why you must strengthen your\nPOKéMON by battling wild POKéMON.\p");
-static const u8 sText_InflictingDamageIsKey[] = _("OAK: Inflicting damage on the foe\nis the key to any battle.\p");
-static const u8 sText_KeepAnEyeOnHP[] = _("OAK: Keep your eyes on your\nPOKéMON's HP.\pIt will faint if the HP drops to\n“0.”\p");
-static const u8 sText_LoweringStats[] = _("OAK: Lowering the foe's stats\nwill put you at an advantage.\p");
-static const u8 sText_OakNoRunningFromATrainer[] = _("OAK: No! There's no running away\nfrom a TRAINER POKéMON battle!\p");
-static const u8 sText_TheTrainerThat[] = _("The TRAINER that makes the other\nTRAINER's POKéMON faint by lowering\ltheir HP to “0,” wins.\p");
-static const u8 sText_TryBattling[] = _("But rather than talking about it,\nyou'll learn more from experience.\pTry battling and see for yourself.\p");
-static const u8 sText_WinEarnsPrizeMoney[] = _("OAK: Hm! Excellent!\pIf you win, you earn prize money,\nand your POKéMON will grow!\pBattle other TRAINERS and make\nyour POKéMON strong!\p");
-static const u8 gText_WhatWillOldManDo[] = _("What will the\nold man do?");
+static const u8 sText_ForPetesSake[] = _("大木：哎，真是的……\n总是这么急躁。\p{B_PLAYER_NAME}。\p你从没经历过宝可梦对战吧？\p所谓宝可梦对战，就是训练家们\n让各自的宝可梦相互对决。\p");
+static const u8 sText_HowDissapointing[] = _("大木：嗯……\n真令人遗憾……\p获胜可以得到奖金，\n宝可梦也会随之成长。\p但若输了，{B_PLAYER_NAME}，\n就要支付奖金……\p不过，这次你毫无准备，\n这次的费用由我来付。\p但出了这扇门，\n就没有这种待遇了。\p所以，要通过与野生宝可梦\n对战来锻炼你的宝可梦。\p");
+static const u8 sText_InflictingDamageIsKey[] = _("大木：给对手造成伤害，\n是对战中的关键。\p");
+static const u8 sText_KeepAnEyeOnHP[] = _("大木：时刻关注\n宝可梦的HP。\pHP降到0时，\n宝可梦就会昏厥。\p");
+static const u8 sText_LoweringStats[] = _("大木：降低对手的能力值，\n在对战中会占据优势。\p");
+static const u8 sText_OakNoRunningFromATrainer[] = _("大木：不行！训练家之间的\n宝可梦对战不能逃跑！\p");
+static const u8 sText_TheTrainerThat[] = _("将对方训练家的宝可梦\nHP降为0使其昏厥的\l训练家，即为胜利者。\p");
+static const u8 sText_TryBattling[] = _("与其说教，不如亲身体验。\p试试对战，\n亲自感受一下吧。\p");
+static const u8 sText_WinEarnsPrizeMoney[] = _("大木：嗯！太棒了！\p获胜可以得到奖金，\n你的宝可梦也会成长！\p多多与其他训练家对战，\n让你的宝可梦变强吧！\p");
+static const u8 gText_WhatWillOldManDo[] = _("老人会\n怎么做？");
 
 static void (*const sOakOldManBufferCommands[CONTROLLER_CMDS_COUNT])(enum BattlerId battler) =
 {

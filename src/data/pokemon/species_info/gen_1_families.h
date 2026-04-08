@@ -4130,6 +4130,75 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formChangeTable = sRaichuFormChangeTable,
     },
 #endif //P_GEN_9_MEGA_EVOLUTIONS
+
+    [SPECIES_PIKACHU_PEAKYCHU] =
+    {
+        .baseHP        = 35,
+        .baseAttack    = 55,
+        .baseDefense   = PIKACHU_DEFENSE,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 50,
+        .baseSpDefense = PIKACHU_SP_DEF,
+        .types = MON_TYPES(TYPE_NORMAL),
+        .catchRate = 190,
+        .expYield = PIKACHU_EXP_YIELD,
+        .evYield_Speed = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 10,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("浅浅丘"),
+        .cryId = CRY_PIKACHU,
+        .natDexNum = NATIONAL_DEX_PIKACHU,
+        .categoryName = _("鼠"),
+        .height = 4,
+        .weight = 60,
+        .description = gPeakychuPokedexText,
+        .pokemonScale = 479,
+        .pokemonOffset = 19,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_PikachuPeakychu,
+        .frontPicSize = MON_COORDS_SIZE(48, 48),
+        .frontPicYOffset = 9,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 15),
+            ANIMCMD_FRAME(1, 60),
+            ANIMCMD_FRAME(1, 20),
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimDelay = 25,
+        .backPic = gMonBackPic_PikachuPeakychu,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_PikachuPeakychu,
+        .shinyPalette = gMonShinyPalette_PikachuPeakychu,
+        .iconSprite = gMonIcon_PikachuPeakychu,
+        .iconPalIndex = 0,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NORMAL,
+        SHADOW(-3, 5, SHADOW_SIZE_M)
+        OVERWORLD(
+            sPicTable_PikachuPeakychu,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_PikachuPeakychu,
+            gShinyOverworldPalette_PikachuPeakychu
+        )
+        FOOTPRINT(Pikachu)
+        .levelUpLearnset = sPikachuLevelUpLearnset,
+        .teachableLearnset = sPikachuTeachableLearnset,
+        .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .formChangeTable = sPikachuFormChangeTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU}),
+    },
+
 #endif //P_FAMILY_PIKACHU
 
 #if P_FAMILY_SANDSHREW

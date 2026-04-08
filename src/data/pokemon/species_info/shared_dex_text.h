@@ -12,6 +12,9 @@ const u8 gPichuPokedexText[] = _(
 const u8 gPikachuPokedexText[] = _(
     "据说当好几只聚在一起时，\n那里就会凝聚强烈的电力，\n还可能会落下闪电。");
 
+const u8 gPeakychuPokedexText[] = _(
+    "一只毛色奇特，呈浅白色的皮卡丘。\n它垂着耳朵，\n看起来总有种楚楚可怜的感觉……");
+
 const u8 gMarowakAlolaPokedexText[] = _(
     "据说，它手中的骨头上\n燃烧的诅咒之火，会给它的身心留下\n永远无法治愈的痛楚。");
 

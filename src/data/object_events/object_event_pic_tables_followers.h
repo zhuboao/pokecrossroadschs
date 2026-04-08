@@ -259,6 +259,10 @@ static const struct SpriteFrameImage sPicTable_PikachuWorld[] = {
 };*/
 #endif //P_GIGANTAMAX_FORMS
 
+static const struct SpriteFrameImage sPicTable_PikachuPeakychu[] = {
+    overworld_ascending_frames(gObjectEventPic_PikachuPeakychu, 4, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_Raichu[] = {
     overworld_ascending_frames(gObjectEventPic_Raichu, 4, 4),
 };

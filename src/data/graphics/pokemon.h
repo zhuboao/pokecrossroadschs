@@ -1097,6 +1097,19 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_PikachuStarterF[] = INCBIN_U8("graphics/pokemon/pikachu/starter/iconf.4bpp");
 #endif //P_GENDER_DIFFERENCES && P_CUSTOM_GENDER_DIFF_ICONS
 
+    const u32 gMonFrontPic_PikachuPeakychu[] = INCBIN_U32("graphics/pokemon/pikachu/peakychu/anim_front.4bpp.smol");
+    const u16 gMonPalette_PikachuPeakychu[] = INCBIN_U16("graphics/pokemon/pikachu/peakychu/normal.gbapal");
+    const u32 gMonBackPic_PikachuPeakychu[] = INCBIN_U32("graphics/pokemon/pikachu/peakychu/back.4bpp.smol");
+    const u16 gMonShinyPalette_PikachuPeakychu[] = INCBIN_U16("graphics/pokemon/pikachu/peakychu/shiny.gbapal");
+    const u8 gMonIcon_PikachuPeakychu[] = INCBIN_U8("graphics/pokemon/pikachu/peakychu/icon.4bpp");
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_PikachuPeakychu[] = INCBIN_COMP("graphics/pokemon/pikachu/peakychu/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u16 gOverworldPalette_PikachuPeakychu[] = INCBIN_U16("graphics/pokemon/pikachu/peakychu/overworld_normal.gbapal");
+    const u16 gShinyOverworldPalette_PikachuPeakychu[] = INCBIN_U16("graphics/pokemon/pikachu/peakychu/overworld_shiny.gbapal");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
 #if !P_GBA_STYLE_SPECIES_GFX
     const u32 gMonFrontPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/anim_front.4bpp.smol");
     const u16 gMonPalette_Raichu[] = INCBIN_U16("graphics/pokemon/raichu/normal.gbapal");

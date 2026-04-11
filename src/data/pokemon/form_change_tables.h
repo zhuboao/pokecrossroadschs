@@ -91,6 +91,11 @@ static const struct FormChange sPikachuFormChangeTable[] =
     {FORM_CHANGE_TERMINATOR},
 };
 
+static const struct FormChange sPikachuPeakychuFormChangeTable[] =
+{
+    {FORM_CHANGE_TERMINATOR},
+};
+
 static const struct FormChange sRaichuFormChangeTable[] = {
 #if P_GEN_9_MEGA_EVOLUTIONS
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_RAICHU_MEGA_X, ITEM_RAICHUNITE_X},

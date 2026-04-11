@@ -1068,7 +1068,7 @@ PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall::
 	lock
 	faceplayer
 	setvar PLAYER_STARTER_NUM, 0
-	setvar PLAYER_STARTER_SPECIES, SPECIES_BULBASAUR
+	setvar PLAYER_STARTER_SPECIES, SPECIES_PIKACHU
 	setvar RIVAL_STARTER_SPECIES, SPECIES_CHARMANDER
 	setvar RIVAL_STARTER_ID, LOCALID_CHARMANDER_BALL
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, PalletTown_ProfessorOaksLab_EventScript_LastPokeBall
@@ -1411,10 +1411,10 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
 	.string "水属性宝可梦杰尼龟吗？$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-	.string "嗯！你选择了妙蛙种子。\n"
-	.string "它非常好培养。\p"
+	.string "嗯！你选择了皮卡丘。\n"
+	.string "它非常活泼可爱。\p"
 	.string "好的，{PLAYER}，你确定要和\n"
-	.string "草属性宝可梦妙蛙种子一起吗？$"
+	.string "电属性宝可梦皮卡丘一起吗？$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
 	.string "这只宝可梦充满了活力！$"
